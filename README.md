@@ -17,19 +17,19 @@ Columns with more than 10 unique values, such as the "CLASSIFICATION" and "APPLI
 The variable considered the target for this model is "IS_SUCCESSFUL," all other variables in the dataframe are considered features. The numerical variables are standardized using Scikit-Learn’s StandardScaler module.
 
 The following variable(s) should be considered on features model
-*ORGANIZATION
-*STATUS
-*INCOME_AMT
-*SPECIAL_CONSIDERATIONS
-*ASK_AMT
-*APPLICATION_TYPE
-*AFFILIATION
-*CLASSIFICATION
-*USE_CASE
+* ORGANIZATION
+* STATUS
+* INCOME_AMT
+* SPECIAL_CONSIDERATIONS
+* ASK_AMT
+* APPLICATION_TYPE
+* AFFILIATION
+* CLASSIFICATION
+* USE_CASE
 
 The following variable(s) should be removed from input and data.
-*NAME
-*EIN
+* NAME
+* EIN
 
 After preprocessing the data, a deep learning model is designed to to create a binary classification model that can predict if an "Alphabet Soup" funded organization will be successful based on the features in the dataset.
 
